@@ -1,8 +1,6 @@
 const readline = require('readline-sync');
 
-
 const CHINESE_ZODIAC_CYCLE_LENGTH = 12;
-
 const year = +readline.question('Enter a year: ');
 
 const chineseZodiac = y => {
